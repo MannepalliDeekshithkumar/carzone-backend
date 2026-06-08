@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "deekshith",
+      "email": "deekshith@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "deekshith",
+      "email": "deekshith@gmail.com",
+      "password": "123456",
+      "id": "Vo8tQVNoq8w"
+    },
+    {
+      "name": "deekshith",
+      "email": "deekshith12@gmail.com",
+      "password": "Deekshith@12",
+      "id": "xaOZcsA2Nqc"
+    }
+  ],
+  "cars": [
+    {
+      "id": "2",
+      "name": "Audi R8",
+      "brand": "Audi",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "10 kmpl",
+      "topSpeed": "330 km/h",
+      "price": 27200000,
+      "rating": 4.9,
+      "description": "The Audi R8 is a high-performance supercar known for its powerful engine and stunning design.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/img-0223-1675270578.jpg?crop=1.00xw:0.847xh;0,0.0612xh&resize=640:*",
+      "features": [
+        "Sports Mode",
+        "Virtual Cockpit",
+        "Airbags",
+        "ABS"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Lamborghini Huracan",
+      "brand": "Lamborghini",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "8 kmpl",
+      "topSpeed": "325 km/h",
+      "price": 45000000,
+      "rating": 5,
+      "description": "The Lamborghini Huracan is an iconic Italian supercar with breathtaking performance.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/2017_Lamborghini_Huracan_LP610.jpg",
+      "features": [
+        "Launch Control",
+        "Sports Mode",
+        "Carbon Fiber Interior",
+        "Airbags"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Porsche 911",
+      "brand": "Porsche",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "11 kmpl",
+      "topSpeed": "308 km/h",
+      "price": 19000000,
+      "rating": 4.9,
+      "description": "The Porsche 911 combines luxury, performance and precision engineering.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTehpDz0BuhDKHDMCrH9SKjxIeV9gOJG8SQ&s",
+      "features": [
+        "Sport Chrono Package",
+        "ABS",
+        "Touchscreen",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mercedes AMG GT",
+      "brand": "Mercedes",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "9 kmpl",
+      "topSpeed": "315 km/h",
+      "price": 24000000,
+      "rating": 4.8,
+      "description": "Mercedes AMG GT is a luxury performance car with stunning looks and incredible power.",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+      "features": [
+        "ABS",
+        "Airbags",
+        "Sports Mode",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Tesla Model S",
+      "brand": "Tesla",
+      "fuelType": "Electric",
+      "transmission": "Automatic",
+      "mileage": "600 km Range",
+      "topSpeed": "322 km/h",
+      "price": 15000000,
+      "rating": 4.9,
+      "description": "Tesla Model S is a premium electric sedan packed with futuristic technology.",
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89",
+      "features": [
+        "Autopilot",
+        "Electric Drive",
+        "Touchscreen",
+        "Premium Interior"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
