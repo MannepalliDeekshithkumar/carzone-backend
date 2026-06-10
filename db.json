@@ -5,23 +5,30 @@
       "name": "deekshith",
       "email": "deekshith@gmail.com",
       "password": "123456"
-    },
-    {
-      "name": "deekshith",
-      "email": "deekshith@gmail.com",
-      "password": "123456",
-      "id": "Vo8tQVNoq8w"
-    },
-    {
-      "name": "deekshith",
-      "email": "deekshith12@gmail.com",
-      "password": "Deekshith@12",
-      "id": "xaOZcsA2Nqc"
     }
   ],
   "cars": [
     {
-      "id": "2",
+      "id": 1,
+      "name": "BMW M4",
+      "brand": "BMW",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "12 kmpl",
+      "topSpeed": "250 km/h",
+      "price": 9500000,
+      "rating": 4.8,
+      "description": "The BMW M4 is a luxury sports coupe offering exceptional performance, premium interiors and advanced technology.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODbbkgEsguYz48NcjL3vY4Gi_L-hLlLn_Hw&s",
+      "features": [
+        "ABS",
+        "Airbags",
+        "Sunroof",
+        "Touchscreen Display"
+      ]
+    },
+    {
+      "id": 2,
       "name": "Audi R8",
       "brand": "Audi",
       "fuelType": "Petrol",
@@ -40,7 +47,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Lamborghini Huracan",
       "brand": "Lamborghini",
       "fuelType": "Petrol",
@@ -59,7 +66,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Porsche 911",
       "brand": "Porsche",
       "fuelType": "Petrol",
@@ -78,7 +85,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Mercedes AMG GT",
       "brand": "Mercedes",
       "fuelType": "Petrol",
@@ -97,7 +104,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Tesla Model S",
       "brand": "Tesla",
       "fuelType": "Electric",
@@ -114,7 +121,98 @@
         "Touchscreen",
         "Premium Interior"
       ]
+    },
+    {
+      "id": 7,
+      "name": "Ferrari F8 Tributo",
+      "brand": "Ferrari",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "7 kmpl",
+      "topSpeed": "340 km/h",
+      "price": 42000000,
+      "rating": 4.9,
+      "description": "Ferrari F8 Tributo is a stunning supercar with incredible acceleration and Italian craftsmanship.",
+      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+      "features": [
+        "Launch Control",
+        "ABS",
+        "Airbags",
+        "Sports Mode"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "McLaren 720S",
+      "brand": "McLaren",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "8 kmpl",
+      "topSpeed": "341 km/h",
+      "price": 48000000,
+      "rating": 5,
+      "description": "McLaren 720S delivers extreme performance, lightweight engineering and futuristic design.",
+      "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b",
+      "features": [
+        "Carbon Fiber Body",
+        "Launch Control",
+        "ABS",
+        "Touchscreen"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rolls Royce Phantom",
+      "brand": "Rolls Royce",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "9 kmpl",
+      "topSpeed": "250 km/h",
+      "price": 95000000,
+      "rating": 4.8,
+      "description": "Rolls Royce Phantom represents ultimate luxury, comfort and prestige.",
+      "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
+      "features": [
+        "Luxury Interior",
+        "Massage Seats",
+        "Airbags",
+        "Premium Sound System"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bugatti Chiron",
+      "brand": "Bugatti",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "mileage": "5 kmpl",
+      "topSpeed": "420 km/h",
+      "price": 300000000,
+      "rating": 5,
+      "description": "Bugatti Chiron is one of the fastest and most exclusive hypercars in the world.",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "features": [
+        "Quad Turbo Engine",
+        "Launch Control",
+        "Carbon Fiber",
+        "Premium Interior"
+      ]
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "bookings": [
+    {
+      "name": "deekshu",
+      "email": "deekshu12@gmail.com",
+      "phone": "9876541230",
+      "address": "dewrgerntn 102/56",
+      "paymentMode": "Cash",
+      "carId": 1,
+      "carName": "BMW M4",
+      "brand": "BMW",
+      "price": 9500000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODbbkgEsguYz48NcjL3vY4Gi_L-hLlLn_Hw&s",
+      "status": "Booked",
+      "id": 1
+    }
+  ]
 }
